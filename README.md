@@ -17,6 +17,34 @@ The data used in this project comes from the **Wellcome Global Monitor (WGM) 202
   - **MH9H**: Spending time in nature/outdoors
 
 - **Predictor Features**: These include demographic and mental health-related data like age, gender, education, income level, employment status, experience with mental health issues, and beliefs about mental health.
+# Predicting the Helpfulness of Mental Health Treatment Methods Using Machine Learning
+
+## Overview
+
+This repository contains the code and data for a study aimed at predicting the perceived helpfulness of various mental health treatment methods using machine learning models. The study leverages data from the Wellcome Global Monitor 2020 Mental Health Module to predict how helpful different treatments are perceived by individuals suffering from anxiety or depression.
+
+## Folder Structure
+
+```plaintext
+├── data/
+│   ├── raw_welcomedata/           # Raw data files from Wellcome Global Monitor
+│   ├── processed_data/            # Processed data used for helpfulness prediction model
+│   └── processed/                 # Processed data used for depression prediction (exploratory)
+│
+├── notebooks/
+│   ├── distribution.ipynb         # Describes data distribution and initial exploration
+│   ├── result_analysis.ipynb      # Visualizes and analyzes the model results
+│   └── cluster.ipynb              # Uses unsupervised clustering techniques to analyze the data
+│
+├── src/
+│   ├── helpfulness_training.py    # Script for training the helpfulness prediction model
+│   ├── preprocess/                # Preprocessing scripts for helpfulness prediction data
+│   │   ├── helpfulness_preprocess.py  # Preprocessing for helpfulness prediction
+│   │   └── depression_preprocess.py  # Preprocessing for depression prediction (exploratory)
+│   ├── main.py                    # Main script to run the helpfulness prediction model
+│   ├── depressionprediction.py    # Script to predict depression outcomes based on demographic variables
+│   └── logg.py                    # Logger utility for tracking the execution of scripts
+
 
 ## Folder Structure
 The repository is structured as follows:
