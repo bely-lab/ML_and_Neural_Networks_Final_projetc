@@ -19,10 +19,3 @@ The data used in this project comes from the **Wellcome Global Monitor (WGM) 202
 - **Predictor Features**: These include demographic and mental health-related data like age, gender, education, income level, employment status, experience with mental health issues, and beliefs about mental health.
 
 ## Folder Structure
-The repository is structured as follows:
-
-/data /raw_welcomedata # Raw Wellcome Global Monitor Data /processed_data # Processed data for helpfulness prediction /processed_depression_data # Processed data for depression prediction (exploratory)
-
-/notebooks distribution.ipynb # Data distribution analysis and visualization result_analysis.ipynb # Result visualization and analysis cluster.ipynb # Clustering analysis using unsupervised methods
-
-/src helpfulness_training.py # Script to train machine learning models for helpfulness prediction helpfulness_preprocess.py # Preprocessing script for helpfulness prediction data depression_preprocess.py # Preprocessing script for depression prediction data main.py # Main script to initiate helpfulness prediction depression_prediction.py # Script for depression prediction analysis back_prediction.py # Predict demographic variables and analyze results logg.py # Logger for tracking model training and results
