@@ -1,7 +1,7 @@
 # Predicting the Helpfulness of Mental Health Treatment Methods Using Machine Learning
 
 ## Project Overview
-This project aims to predict the perceived helpfulness of various mental health treatment methods using machine learning. It leverages data from the **Wellcome Global Monitor 2020 Mental Health data** to understand how different treatment approaches (e.g., talking to professionals, medication, lifestyle changes) are perceived by individuals with mental health issues such as anxiety or depression. The primary focus is to predict the helpfulness of these treatments, which can aid in personalizing mental health care and improving clinical decision-making.
+This project aims to predict the perceived helpfulness of various mental health treatment methods using machine learning. It leverages data from the [Wellcome Global Monitor 2020 Mental Health data](https://wellcome.org/reports/wellcome-global-monitor-mental-health/2020) to understand how different treatment approaches (e.g., talking to professionals, medication, lifestyle changes) are perceived by individuals with mental health issues such as anxiety or depression. The primary focus is to predict the helpfulness of these treatments, which can aid in personalizing mental health care and improving clinical decision-making.
 
 ## Data Description
 The data used in this project comes from the **Wellcome Global Monitor (WGM) 2020 Mental Health Module**. It contains survey responses from individuals who self-reported having experienced anxiety or depression. The key features of the dataset include:
